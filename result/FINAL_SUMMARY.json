@@ -1,0 +1,21 @@
+{
+  "reporting_seeds": [0, 1, 2, 3, 4],
+  "standard_deviation": "population",
+  "datasets": [
+    "AmazonComputers",
+    "AmazonPhoto",
+    "CoauthorCS",
+    "CiteSeer",
+    "CoauthorPhysics",
+    "Cora",
+    "PubMed",
+    "OGBN-Arxiv"
+  ],
+  "primary_budget": "Fixed-q8 edge-count cap",
+  "quota_codebook": [4, 8, 16],
+  "accuracy_average_rank": 4.063,
+  "macro_f1_average_rank": 4.375,
+  "accuracy_rank_status": "best",
+  "macro_f1_rank_status": "joint-best",
+  "algorithm": "BAS-GNN"
+}

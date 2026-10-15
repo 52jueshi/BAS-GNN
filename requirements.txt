@@ -1,0 +1,7 @@
+# Install the appropriate PyTorch CPU/CUDA build for your machine first.
+torch>=2.8,<2.9
+torch-geometric>=2.6,<3
+numpy>=1.26,<3
+pandas>=2.2,<3
+scikit-learn>=1.4,<2
+ogb>=1.3,<2
